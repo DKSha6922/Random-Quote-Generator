@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #664E4C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.main > .container{
+    width: 550px;
+    height: 250px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #F9D4BB;
+    text-align: center;
+}
+
+.container h3{
+    font-size: 23px;
+    
+}
+
+.container .content{
+    padding: 30px 10px 0 0;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+span{
+    font-weight: 700;
+    position: absolute;
+    top: 100px;
+    left: 360px;
+    color: #664E4C;
+}
+
+a{
+    border: 2px solid black;
+    padding: 6px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700
+}
+
+a:hover{
+    background-color: #664E4C;
+    color: azure;
+}
+
+.btn{
+    height: 150px;
+    margin-top: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   gap: 5px;
+}
+
+button{
+    padding: 8px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #664E4C;
+    color: aliceblue;
+}
+
+img{
+    width: 30px;
+    padding: 0;
+    margin: 0;
+}
+.gen{
+    padding: 10.5px 20px;
+}
+
+.x{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
